@@ -8,13 +8,13 @@ links.
 ## Install (local, editable)
 
 ```bash
-pip install -e .
+python3 -m pip install -e .
 ```
 
 ## Usage
 
 ```bash
-python -m markdown_link_checker PATH
+python3 -m markdown_link_checker PATH
 ```
 
 `PATH` is a required positional argument: the directory to scan recursively.
